@@ -1,5 +1,9 @@
 # FF-ProCams
 
+<p align="center">
+  <img src="assets/teaser.png" width="800">
+</p>
+
 This repository contains tools for synthetic dataset generation using Blender and projector-camera rendering.
 
 ## Synthetic Dataset Generation
