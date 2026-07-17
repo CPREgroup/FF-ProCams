@@ -1,4 +1,4 @@
-# FF-ProCams
+# FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System
 
 <p align="center">
   <img src="assets/teaser.png" width="800">
