@@ -1,0 +1,48 @@
+# Default rendering configuration.
+# Override dataset-specific values from Blender command-line arguments after "--".
+
+# Image output
+resolution: [512, 512]
+file_format: "PNG"
+
+# Blender scene object names expected in the input .blend file
+orbit_center_name: "Orbit_Center"
+camera_names: ["camera"]
+projector_camera_name: "Projector_00"
+projector_light_name: "Projector.Spot"
+camera_light_name: "Camera_Light"
+
+# Camera/projector placement. Angles are expressed in degrees for readability.
+min_camera_height_above_ground: 0.2
+orbit_view_count: 8
+camera_polar_angle_degrees: 90.0
+projector_polar_angle_degrees: 60.0
+projector_distance_ratio: 0.6666666666666666
+
+# Projector pattern geometry and scene lighting
+projector_energy: 35
+world_strength: 0.5
+pattern_dir: "/media/santu/新加卷1/code/Long_LRM_both/data/matsynth_simple/pattern"
+pattern_size: [800, 800]
+camera_light_energy: 0
+use_camera_light: true
+
+# Rendering and dataset bookkeeping
+samples: 16
+camera_radius: 3.0
+start_index: 0
+end_index: 1389
+gpu_id: 0
+expected_file_count: 81
+folder_total: 160
+
+# Controller defaults
+controller_blender_executable: "/home/santu/文档/software/blender-4.4.0-linux-x64/blender"
+controller_blend_file: "/media/santu/新加卷1/code/MatSynth/mutlview_image_1.blend"
+controller_script: "/media/santu/新加卷1/code/MatSynth/github/render_batch_both_8view_multiproj.py"
+controller_obj_folder: "/media/santu/16t/paper/Teaser/mesh"
+controller_textures_root: "/media/santu/新加卷1/code/Long_LRM_both/data/matsynth_simple/new"
+controller_samples: 12
+controller_radius: 2.0
+controller_run_duration_seconds: 3600
+controller_restart_delay_seconds: 10
