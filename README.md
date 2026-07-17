@@ -6,7 +6,7 @@
 
 This repository currently releases the synthetic data generation pipeline used by FF-ProCams.
 
-The provided code contains a Blender-based pipeline for generating multi-view projector-camera synthetic data. The FF-ProCams training code, evaluation scripts, pretrained models, and dataset links will be released in future updates.
+The provided code contains a Blender-based pipeline for generating multi-view projector-camera synthetic data. The FF-ProCams training code,  pretrained models, and dataset links will be released in future updates.
 
 ## Status
 
@@ -19,14 +19,11 @@ The provided code contains a Blender-based pipeline for generating multi-view pr
 ## Roadmap
 
 - [x] Release synthetic dataset generation pipeline
-- [ ] Add detailed setup and usage examples
 - [ ] Add example Blender scene and sample assets
 - [ ] Add example generated data structure
 - [ ] Release FF-ProCams training code
-- [ ] Release evaluation scripts
 - [ ] Release pretrained models
 - [ ] Release dataset download links
-- [ ] Add citation and license information
 
 ## Synthetic Dataset Generation
 
