@@ -80,11 +80,6 @@ textures/
 
 The generated metadata file `render_poses.json` contains camera and projector pose information for each rendered view.
 
-## Notes
-
-- Generated datasets can be large. Avoid committing generated images, depth maps, masks, and intermediate outputs to the repository.
-- The current release focuses on synthetic data generation. Training and evaluation code will be released later.
-
 ## Citation
 
 Citation information will be added after release.
