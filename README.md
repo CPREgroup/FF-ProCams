@@ -11,7 +11,7 @@ FF-ProCams is a feed-forward Gaussian splatting framework for projector-camera s
 ## Qualitative Results
 
 <p align="center">
-  <img src="assets/qualitative_results.png" width="100%">
+  <img src="assets/qualitative_results_4x3.png" width="100%">
 </p>
 
 The figure presents additional qualitative results across diverse
