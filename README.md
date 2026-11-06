@@ -4,6 +4,12 @@
   <img src="assets/teaser.png" width="800">
 </p>
 
+## Qualitative Results
+
+<p align="center">
+  <img src="assets/qualitative_results.png" width="100%">
+</p>
+
 This repository currently releases the synthetic data generation pipeline used by FF-ProCams.
 
 The provided code contains a Blender-based pipeline for generating multi-view projector-camera synthetic data. The FF-ProCams training code,  pretrained models, and dataset links will be released in future updates.
