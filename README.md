@@ -4,11 +4,9 @@
 
 # FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System
 
-FF-ProCams is a feed-forward Gaussian splatting framework for
-projector-camera systems. This repository currently releases the
-Blender-based synthetic data generation pipeline used by FF-ProCams.
-The training code, pretrained models, and dataset links will be released
-in future updates.
+FF-ProCams is a feed-forward Gaussian splatting framework for projector-camera systems. 
+- This repository currently releases theBlender-based synthetic data generation pipeline used by FF-ProCams.
+- The training code, pretrained models, and dataset links will be released in future updates.
 
 ## Qualitative Results
 
@@ -18,8 +16,7 @@ in future updates.
 
 The figure presents additional qualitative results across diverse
 geometries and materials, including ground-truth images, rendered views,
-albedo, and roughness. The rendered views are shown after 400 refinement
-steps; albedo and roughness are shown before refinement.
+albedo, and roughness.
 
 ## Status
 
