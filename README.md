@@ -1,14 +1,14 @@
 # FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System
 
 <p align="center">
+  <img src="assets/qualitative_results.png" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/teaser.png" width="800">
 </p>
 
 ## Qualitative Results
-
-<p align="center">
-  <img src="assets/qualitative_results.png" width="100%">
-</p>
 
 This repository currently releases the synthetic data generation pipeline used by FF-ProCams.
 
